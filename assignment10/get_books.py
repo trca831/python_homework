@@ -6,6 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import time
 import json
+import os
 
 # Step 1: Set up Chrome WebDriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
