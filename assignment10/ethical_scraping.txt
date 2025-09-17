@@ -1,0 +1,16 @@
+Restricted sections for crawling:
+- /admin/
+- /login/
+- /private/
+
+Specific rules for certain user agents:
+- User-agent: Googlebot
+  Disallow: /no-google/
+- User-agent: *
+  Disallow: /tmp/
+
+Reflection:
+Websites use robots.txt to control which parts of their site can be accessed by 
+automated crawlers or bots. This helps protect sensitive or private content and 
+prevents servers from being overloaded. Following robots.txt promotes ethical 
+scraping by respecting the website owner’s rules.

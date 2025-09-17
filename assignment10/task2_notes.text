@@ -1,0 +1,28 @@
+# Task 2: HTML & DOM Notes for Durham Library Scraping
+
+# 1. Single search result <li> element
+# Tag: li
+# Class: row cp-search-result-item
+# Contains all the data for one book
+
+# 2. Book Title
+# Tag: a
+# Class: cp-title-link
+# Text = book title
+
+# 3. Author(s)
+# Tag: a
+# Class: author-link
+# Text = author name
+# Note: some books may have multiple authors → collect all <a> elements with this class inside <li>
+
+# 4. Format & Year
+# Tag: div
+# Class: cp-format-year
+# Text = format and publication year
+
+# 5. Cover Image
+# Tag: img
+# Class: cp-jacket-cover img-responsive
+# src attribute → URL of cover image
+# alt attribute → optional: book title and author
