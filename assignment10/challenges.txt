@@ -1,0 +1,7 @@
+Challenges:
+- Figuring out the correct XPath to target the top 10 vulnerabilities 
+took some inspection using browser developer tools.
+- Ensuring Selenium waits for the page to fully load required adding a 
+sleep timer.
+- Writing the data to CSV needed careful handling of special characters 
+in titles.
